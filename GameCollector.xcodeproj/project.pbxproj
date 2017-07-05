@@ -13,6 +13,8 @@
 		52E0B5471F0C76A1008B21CF /* GameCollector.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 52E0B5451F0C76A1008B21CF /* GameCollector.xcdatamodeld */; };
 		52E0B5491F0C76A1008B21CF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52E0B5481F0C76A1008B21CF /* Assets.xcassets */; };
 		52E0B54C1F0C76A1008B21CF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52E0B54A1F0C76A1008B21CF /* LaunchScreen.storyboard */; };
+		52E0B5541F0C80E6008B21CF /* Monterrey Cover.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 52E0B5531F0C80E6008B21CF /* Monterrey Cover.jpg */; };
+		52E0B5561F0C825F008B21CF /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E0B5551F0C825F008B21CF /* GameViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		52E0B5481F0C76A1008B21CF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		52E0B54B1F0C76A1008B21CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		52E0B54D1F0C76A1008B21CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52E0B5531F0C80E6008B21CF /* Monterrey Cover.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Monterrey Cover.jpg"; sourceTree = "<group>"; };
+		52E0B5551F0C825F008B21CF /* GameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,8 +60,10 @@
 		52E0B53D1F0C76A1008B21CF /* GameCollector */ = {
 			isa = PBXGroup;
 			children = (
+				52E0B5531F0C80E6008B21CF /* Monterrey Cover.jpg */,
 				52E0B53E1F0C76A1008B21CF /* AppDelegate.swift */,
 				52E0B5401F0C76A1008B21CF /* ViewController.swift */,
+				52E0B5551F0C825F008B21CF /* GameViewController.swift */,
 				52E0B5421F0C76A1008B21CF /* Main.storyboard */,
 				52E0B5481F0C76A1008B21CF /* Assets.xcassets */,
 				52E0B54A1F0C76A1008B21CF /* LaunchScreen.storyboard */,
@@ -128,6 +134,7 @@
 			files = (
 				52E0B54C1F0C76A1008B21CF /* LaunchScreen.storyboard in Resources */,
 				52E0B5491F0C76A1008B21CF /* Assets.xcassets in Resources */,
+				52E0B5541F0C80E6008B21CF /* Monterrey Cover.jpg in Resources */,
 				52E0B5441F0C76A1008B21CF /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -139,6 +146,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				52E0B5561F0C825F008B21CF /* GameViewController.swift in Sources */,
 				52E0B5471F0C76A1008B21CF /* GameCollector.xcdatamodeld in Sources */,
 				52E0B5411F0C76A1008B21CF /* ViewController.swift in Sources */,
 				52E0B53F1F0C76A1008B21CF /* AppDelegate.swift in Sources */,
@@ -303,6 +311,7 @@
 				52E0B5521F0C76A1008B21CF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
